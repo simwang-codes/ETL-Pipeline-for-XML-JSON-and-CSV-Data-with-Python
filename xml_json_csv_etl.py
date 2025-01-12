@@ -1,6 +1,8 @@
-# A Python-based ETL project that extracts data from multiple file formats (CSV, JSON, XML),
-# transforms it by converting height and weight to metric units, 
-# and loads the transformed data into a CSV file while logging progress throughout the process.
+# A Python-based ETL project I created during my work at Keck Medicine of USC.
+# xml_json_csv.py is used to extract patient data (name, height, weight) from multiple file formats (CSV, JSON, XML),
+# transform it by converting height and weight to metric units, 
+# and load the transformed data into a CSV file while logging progress throughout the process.
+# Patient data was protected and not shared in this repository.
 
 import glob 
 import pandas as pd 
